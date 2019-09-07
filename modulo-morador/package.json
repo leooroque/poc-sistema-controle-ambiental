@@ -1,0 +1,8 @@
+{
+  "name": "modulo-morador",
+  "version": "1.0.0",
+  "description": "Modulo responsavel por receber as requisicoes do morador",
+  "main": "main.js",
+  "author": "Leonardo Roque",
+  "license": "MIT"
+}
