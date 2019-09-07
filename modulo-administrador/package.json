@@ -1,0 +1,8 @@
+{
+  "name": "modulo-administrador",
+  "version": "1.0.0",
+  "description": "modulo responsavel pelas requisicoes do administrador",
+  "main": "main.js",
+  "author": "Leonardo Roque",
+  "license": "MIT"
+}
