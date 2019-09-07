@@ -1,0 +1,8 @@
+{
+  "name": "modulo-autenticacao",
+  "version": "1.0.0",
+  "description": "Modulo responsavel pela autenticacao dos usuarios",
+  "main": "main.js",
+  "author": "Leonardo Roque",
+  "license": "MIT"
+}
