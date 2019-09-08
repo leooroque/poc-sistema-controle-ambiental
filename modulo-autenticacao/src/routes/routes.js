@@ -2,7 +2,7 @@ const express = require('express');
 const UsuarioController = require('../controller/UsuarioController');
 const routes = express.Router();
 
-/**Ativos Controller */
+/**Usuario Controller */
 routes.post('/auth',UsuarioController.autenticar);
 
 
