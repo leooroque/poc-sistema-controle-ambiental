@@ -1,0 +1,13 @@
+var manuais = [{"id":2,"titulo":"Protocolo de evacuação em casos urgentes","detalhamento":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."},{"id":1,"titulo":"Protocolo de evacuação em casos simples","detalhamento":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."},{"id":3,"titulo":"O que você precisa saber sobre mineração.","detalhamento":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."}];
+var alertas = [{"id":1,"titulo":"Informativo","descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry", "tipo":"info","data":"2019-03-03"},{"id":2,"titulo":"evacuação imediata","descricao":"Lorem Ipsum is simply dummy text of the printing and typesetting industry", "tipo":"danger","data":"2019-09-08"}];
+var MoradorDAO = class MoradorDAO{
+    consultarManuais(){
+        return manuais;
+    }
+
+    consultarAlertas(){
+        return alertas;
+    }
+}
+
+exports.MoradorDAO = MoradorDAO;

@@ -4,5 +4,12 @@
   "description": "Modulo responsavel por receber as requisicoes do morador",
   "main": "main.js",
   "author": "Leonardo Roque",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/main.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
 }
