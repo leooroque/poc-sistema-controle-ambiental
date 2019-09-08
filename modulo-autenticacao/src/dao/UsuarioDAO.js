@@ -1,4 +1,4 @@
-var users = [{"id":"Administrador", "password":"7cfdd07889b3295d6a550914ab35e068","perfil":1},{"id":"Morador", "password":"5289df737df57326fcdd22597afb1fac","perfil":2}]
+var users = [{"id":"Administrador", "password":"827ccb0eea8a706c4c34a16891f84e7b","perfil":1},{"id":"Morador", "password":"202cb962ac59075b964b07152d234b70","perfil":2}]
 var UsuarioDAO = class UsuarioDAO{
 
     consultarUsuario(usuario){
