@@ -11,4 +11,4 @@ server.use(cors());
 server.use(express.json());
 server.use(connectionCache(redis.createClient({"host":"192.168.99.100","port":"6379"})));
 server.use(routes);
-server.listen(3333);
+server.listen(3332);
