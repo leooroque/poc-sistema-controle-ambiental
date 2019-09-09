@@ -1,0 +1,28 @@
+.navbar-light .navbar-brand {
+    color: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link{
+    color: white !important;
+}
+
+.btn-outline-light:not(:disabled):not(.disabled).active, .btn-outline-light:not(:disabled):not(.disabled):active, .show>.btn-outline-light.dropdown-toggle{
+    color: white !important;
+    cursor: pointer;
+}
+
+#root > div > nav > nav > div > div > div.nav-header.navbar-nav > form > button{
+    cursor: pointer !important;
+    color: white !important;
+    border: none !important;
+    background-color: transparent !important;
+
+}
+
+#root > div > nav > nav > div > div > div.nav-header.navbar-nav > form > button :hover{
+    cursor: pointer !important;
+    color: white !important;
+    border: none !important;
+    background-color: transparent !important;
+
+}
