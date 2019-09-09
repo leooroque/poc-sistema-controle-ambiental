@@ -36,7 +36,7 @@ module.exports ={
         if(!validacaoToken.message){
             return (validacaoToken.usuario.perfil == 1) ? resp.json(new AtivoDAO().excluirAtivo(id)) : resp.status(403).json('Token inválido para executar essa ação!'); 
         }
-        return resp.status(403).json('Token inválido para executar essa ação!'); ;
+        return resp.status(403).json('Token inválido para executar essa ação!'); 
     },
     validarToken(){
 
